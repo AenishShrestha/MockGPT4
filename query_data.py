@@ -36,7 +36,7 @@ def get_chain(
         callback_manager=stream_manager,
         verbose=True, 
         temperature=0,
-        model='gpt-4', #'gpt-3.5-turbo'
+        model='gpt-3.5-turbo', #'gpt-4'
         )
         
     memory = ConversationBufferMemory(return_messages=True)
